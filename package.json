@@ -1,0 +1,32 @@
+{
+	"name": "send-blinket",
+	"version": "1.0.0",
+	"description": "A simple solana action that implements a blinks for transacting with the $SEND token.",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx tsc",
+		"start": "node dist/index.js",
+		"dev": "nodemon src/index.ts"
+	},
+	"keywords": [
+		"Solana",
+		"thesendcoin",
+		"$SEND",
+		"Blinks"
+	],
+	"author": "Ezedike-egwom Collins",
+	"license": "ISC",
+	"dependencies": {
+		"@solana/actions": "^1.6.4",
+		"@solana/spl-token": "^0.4.8",
+		"@solana/web3.js": "^1.95.3",
+		"express": "^4.19.2"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.21",
+		"dotenv": "^16.4.5",
+		"nodemon": "^3.1.4",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.5.4"
+	}
+}
