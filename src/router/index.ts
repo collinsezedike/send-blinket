@@ -4,7 +4,7 @@ import { actionsJson, actions } from "../controller";
 const router: Router = express.Router();
 
 router.get("/", (req: Request, res: Response) => {
-	res.send("Kamino Blinks: GM!");
+	res.send("Send Blinket: GM! 😉");
 });
 
 router.route("/actions.json").options(actionsJson.OPTIONS).get(actionsJson.GET);
