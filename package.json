@@ -4,7 +4,7 @@
 	"description": "A simple solana action that implements a blinks for transacting with the $SEND token.",
 	"main": "index.js",
 	"scripts": {
-		"build": "npx tsc",
+		"build": "tsc",
 		"start": "node dist/index.js",
 		"dev": "nodemon src/index.ts"
 	},
